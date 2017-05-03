@@ -16,8 +16,8 @@
  * - quick'n'dirty c0de                                                        *
  * - Only for testing purposes. I am not responsible for misusage.             *
  *                                                                             *
- * AUTHOR:                                                                     *
- * - noptrix (http://www.noptrix.net/ - http://www.majorsecurity.net)          *
+ *                                                                             *
+ *                                                                             *
  ******************************************************************************/
 
 #include <stdio.h>
