@@ -115,7 +115,7 @@ void xsendto(int, const void *, size_t, int, const struct sockaddr *,
              socklen_t);
 
 /* prog stuff */
-void banner();
+
 void usage();
 void check_argc(int);
 void check_args();
@@ -229,15 +229,8 @@ void xsendto(int sockfd, const void *buf, size_t len, int flags,
 }
 
 
-/* just our leet banner */
-void banner()
-{
-    printf("-----------------------------------------------\
-           \ndnsdrdos - by noptrix - http://www.noptrix.net/\
-           \n-----------------------------------------------\n");
-    
-    return;
-}
+
+
 
 
 /* usage and help */
@@ -608,8 +601,6 @@ int main(int argc, char **argv)
     unsigned int i = 0;
     job_t *job;
     
-    
-    banner();           /* banner output is important! */
     check_argc(argc);
     job = set_defaults();
     
